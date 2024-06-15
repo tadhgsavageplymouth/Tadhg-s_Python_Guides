@@ -24,3 +24,15 @@ print (cars[-3].title())
 message = f"My first car was a {cars[0].title()}, I really liked the car!"
 print (message)
 
+### Modifying an element in a list
+cars = ["Bugatti", "Honda", "Ford"]
+
+### This replaces the item 1 with Ferrari instead
+cars[1] = "Ferrari"
+
+### Item then printed below
+print (cars[1])
+
+### Now lets print with title formatting too (seperator included in paranthesise and with comma)
+print(cars[0].title(), cars[1].title(), cars[2].title() , sep =', ')
+
