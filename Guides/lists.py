@@ -36,3 +36,27 @@ print (cars[1])
 ### Now lets print with title formatting too (seperator included in paranthesise and with comma)
 print(cars[0].title(), cars[1].title(), cars[2].title() , sep =', ')
 
+### Additing elements to a list 
+### Here the append method is used after the list cars to add new info in
+print (cars)
+cars.append("ferrari")
+print (cars)
+### Printing last car in list
+print (cars[-1].title())
+
+### Lets create a new list starting from an empty list and adding new user information in using append
+crisps = []
+print (crisps)
+
+crisps.append("walkers")
+print (crisps[0].title())
+
+crisps.append("lays")
+print (crisps[0].title(), crisps[1].title(), sep = ", ")
+
+crisps.append("monster munch")
+print (crisps[0].title(), crisps[1].title(), crisps[2].title(), sep = ", ")
+
+
+
+
