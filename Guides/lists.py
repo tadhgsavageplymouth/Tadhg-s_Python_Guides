@@ -57,6 +57,13 @@ print (crisps[0].title(), crisps[1].title(), sep = ", ")
 crisps.append("monster munch")
 print (crisps[0].title(), crisps[1].title(), crisps[2].title(), sep = ", ")
 
+### Usage of the Insert method to insert new elements into a list
+print (crisps)
+crisps.insert(0, "quavers")
+crisps.append("sensations")
+
+### Printing of new list
+print (crisps[0].title(), crisps[1].title(), crisps[2].title(), crisps[3].title(), crisps[4].title(), sep = ", ")
 
 
 
