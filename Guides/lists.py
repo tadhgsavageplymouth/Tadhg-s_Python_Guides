@@ -65,5 +65,22 @@ crisps.append("sensations")
 ### Printing of new list
 print (crisps[0].title(), crisps[1].title(), crisps[2].title(), crisps[3].title(), crisps[4].title(), sep = ", ")
 
+### Removing an item using the del statement 
+print (crisps)
+
+del crisps[0]
+print (crisps)
+
+### Alternatibvley an item can be deleted using the pop method 
+### This is a useful method that allows us to use the value of an item after it has been removed from the list.
+
+crisps = ["sensations", "quavers", "monster munch"]
+print (crisps)
+
+popped_crisps = crisps.pop()
+print (crisps)
+print (popped_crisps)
+
+
 
 
