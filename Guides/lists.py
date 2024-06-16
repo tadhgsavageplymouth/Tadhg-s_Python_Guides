@@ -71,15 +71,53 @@ print (crisps)
 del crisps[0]
 print (crisps)
 
+
 ### Alternatibvley an item can be deleted using the pop method 
 ### This is a useful method that allows us to use the value of an item after it has been removed from the list.
 
-crisps = ["sensations", "quavers", "monster munch"]
+### Creating a new list of crisps
+crisps = ["walkers", "quavers", "lays", "sensations", "monster munch"]
 print (crisps)
 
+### Creating new variable and assigning it the value of the popped crisps
 popped_crisps = crisps.pop()
 print (crisps)
 print (popped_crisps)
+
+### Taking the popped value and placing it into a new list called "old crisps"
+
+old_crisps = []
+old_crisps.append(popped_crisps)
+print (old_crisps)
+
+### Using an f string to print a sentence with popped value 
+print (f"My last bag of crisps were a packet of {popped_crisps}, I liked them very much!")
+
+### Popping any item from the list using index in parenthesise 
+crisps = ["walkers", "quavers", "lays", "monster munch"]
+popped_crisps = crisps.pop(1)
+print (popped_crisps.title())
+
+### If the index position is unknown of the value you want to remove but the value is, use the remove method 
+
+crisps = ["walkers", "lays", "quavers", "monster munch"]
+crisps.remove("walkers")
+print (crisps)
+
+### Lets make a sentence using f string and the rmeove method 
+### Making new list
+crisps = ["walkers", "lays", "monster munch"]
+
+### Assignining value too_expensive with monster munch
+too_expensive = "monster munch"
+
+### Removing the variable too expensive from the list
+crisps.remove(too_expensive)
+
+### Using f string to tie it all together and print with grammar and formatting
+print (f"\nA packet of {too_expensive.title()} is too expensive for me")
+print (crisps[0].title(), crisps[1].title(), sep = ", ")
+
 
 
 
