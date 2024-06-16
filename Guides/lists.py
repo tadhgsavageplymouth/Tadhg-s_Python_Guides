@@ -161,6 +161,24 @@ print (chocolate)
 ### Using f strings to concatenate a sentence 
 print (f"I like {chocolate[1].title()}, it truly is my favourite!")
 
+### Sorting of lists into alphabetical order permanently using the sort method
+
+### Creation of the list
+cars = ["audi", "range rover", "bentley", "ford"]
+
+### Permanetly sorting cars in alphabetical order
+cars.sort()
+
+### Printing of cars list
+print (cars)
+
+### Sorting cars in reverse alphabetical order 
+cars.sort(reverse = True)
+
+### Prtining of cars list
+print (cars)
+
+
 
 
 

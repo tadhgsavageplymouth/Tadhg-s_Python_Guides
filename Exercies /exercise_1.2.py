@@ -94,20 +94,3 @@ del invities[0]
 
 print (invities)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
