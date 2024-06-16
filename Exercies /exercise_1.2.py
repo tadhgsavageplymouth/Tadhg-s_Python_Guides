@@ -94,3 +94,74 @@ del invities[0]
 
 print (invities)
 
+# Printing total amount of invities
+print (len(invities))
+
+# Printing message with total amount of invities coming to dinner
+print (f"The total amount of poeple coming to dinner is {len(invities)}.")
+
+# List of countries 
+countries = ["italy", "england", "ireland", "switzerland"]
+
+# List of countries with formatting 
+print (countries[0].title(), countries[1].title(), countries[2].title(), countries[3].title(), sep=", ")
+
+# Reversing the order of the list
+countries.reverse()
+print (countries)
+# Putting them back in original order
+countries.reverse
+
+# Temoparily sorting them
+print (sorted(countries))
+
+# Reversing the sorting mehtod
+print (sorted(countries, reverse=True))
+# Print original list
+print (countries)
+
+# Printing length of list
+print (len(countries))
+
+# Permanetly sorting
+countries.sort()
+print (countries)
+
+# Reverse permanet sorting
+countries.sort(reverse=True)
+print (countries)
+
+# Removing country in list
+countries.remove("italy")
+print (countries)
+
+# Appending Italy back in
+countries.append("italy")
+print (countries)
+
+# Deleting Switzerland from the list
+del countries[0]
+print (countries)
+
+# Inserting Switzerland at index 0
+countries.insert(0, "switzerland")
+print (countries)
+
+# Popping switzerland out and placing it in visted 
+
+vistited = countries.pop(0)
+
+countries.pop(0)
+
+print (vistited.title())
+print (countries)
+
+
+
+
+
+
+
+
+
+

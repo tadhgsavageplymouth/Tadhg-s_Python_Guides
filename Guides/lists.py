@@ -178,6 +178,34 @@ cars.sort(reverse = True)
 ### Prtining of cars list
 print (cars)
 
+# Now lets aim to sort the list temporarily 
+
+print ("Here is the sorted list:")
+print (sorted(cars, reverse=True))
+
+print ("\nHere is the original order of the list:")
+print (cars)
+
+### Creation of the list
+cars = ["audi", "range rover", "bentley", "ford"]
+
+### Using the reverse method to reverse the order of the list. Notice it does not reverse it alphabetically.
+cars.reverse()
+print (cars)
+
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print (len(cars))
+
+
+
+
+
+
+
+
+
+       
 
 
 
