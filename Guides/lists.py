@@ -118,6 +118,58 @@ crisps.remove(too_expensive)
 print (f"\nA packet of {too_expensive.title()} is too expensive for me")
 print (crisps[0].title(), crisps[1].title(), sep = ", ")
 
+### Use pop for index and remove for value 
+
+### Create list of sweets
+sweets = []
+
+### Append new items to list
+sweets.append("frutella")
+sweets.append("starburst")
+sweets.append("skittles")
+sweets.append("refresher")
+
+### Print new list of sweets
+print (sweets)
+
+### Pop last item into "eaten sweets" variable
+eaten_sweets = sweets.pop(2)
+
+sweets.pop(2)
+
+print (eaten_sweets)
+print (sweets)
+
+### Creating new list utilising the remove function
+chocolate = ["cadbury", "dairy milk", "fredo", "crunchie"]
+print (chocolate)
+
+### Usage of the del statement (only wroks on index not value)
+del chocolate[1]
+print (chocolate)
+
+### Usage of the remove statement to remove a value 
+chocolate.remove("cadbury")
+print (chocolate)
+
+### Repending old choclates back in
+chocolate.append("cadbury")
+chocolate.append("fredo")
+
+print (chocolate)
+
+### Using f strings to concatenate a sentence 
+print (f"I like {chocolate[1].title()}, it truly is my favourite!")
+
+
+
+
+
+
+
+
+
+
 
 
 
