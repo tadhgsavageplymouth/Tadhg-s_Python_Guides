@@ -156,6 +156,7 @@ countries.pop(0)
 print (vistited.title())
 print (countries)
 
+print (len(countries))
 
 
 
