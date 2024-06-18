@@ -15,3 +15,22 @@ print (min(list))
 print (max(list))
 print (sum(list))
 
+# Making a list of odd numbers from one to twenty
+list = []
+for numbers in range(1, 21, 2):
+    list.append(numbers)
+print (list)
+
+# Making a list of the multiples of threee
+multiples_three = []
+for digits in range(3, 31, 3):
+    multiples_three.append(digits)
+print (multiples_three)
+
+# Making a list of cubes from one to 10 
+cubes = []
+for digits in range(1, 11):
+    cubes.append(digits ** 3)
+print (cubes)
+
+
