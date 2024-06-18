@@ -33,4 +33,9 @@ for digits in range(1, 11):
     cubes.append(digits ** 3)
 print (cubes)
 
+# Usage of list comprehensions to yeild the a list of cubes from one to 10
+cubes = [values ** 3 for values in range(1, 11)]
+print (cubes)
+
+
 
