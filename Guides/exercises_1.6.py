@@ -22,32 +22,35 @@ squares = [digits ** 2 for digits in range(1, 10)]
 print (squares)
 
 # My list of pasta 
-my_pasta = ["Penne", "Fusili", "Farfalla", "Linguine"]
+my_pastas = ["Penne", "Fusili", "Farfalla", "Linguine"]
 
 # Copying my list to my frends list
-friends_pasta = my_pasta.copy()
+friends_pastas = my_pastas.copy()
 
 # Printing my friends pasta
-print (friends_pasta)
+print (friends_pastas)
 
 # Adding a new item to my pasta list
-my_pasta.insert(0, "spaghetti")
-print (my_pasta)
+my_pastas.insert(0, "spaghetti")
+print (my_pastas)
 
 # Adding a new item to friends pasta list that is not in mine 
-friends_pasta.append("tagletelle")
-print (friends_pasta)
+friends_pastas.append("tagletelle")
+print (friends_pastas)
 
 # Looping through to print list of my favourite foods 
 print ("This is my food list:")
-for food in my_pasta:
-    print (food)
+for my_pasta in my_pastas:
+    print (my_pasta)
 
 # Looping through to show my freidns favourite foods
 print ("\nMy freinds fevouroite foods are:")
-for f_foods in friends_pasta:
-    print (f_foods.title())
-    
+for friends_pasta in friends_pastas:
+    print (friends_pasta.title())
+
+
+
+
 
 
 
