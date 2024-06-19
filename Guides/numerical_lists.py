@@ -119,6 +119,16 @@ print (numbers)
 print (len(numbers))
 
 
+# Lets bamke a list of cubed digits
+cubes = []
+for digits in range(1, 11):
+    cubes.append(digits ** 3)
+print (cubes)
+
+# Lets try and make a list comprehension
+cubes = [digits ** 2 for digits in range(1, 11)]
+print (cubes)
+
 
 
 
