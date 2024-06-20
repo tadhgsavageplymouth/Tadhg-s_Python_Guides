@@ -20,6 +20,39 @@ elif age < 18:
 else:
     print("You pay 40 pounds")
 
-    
+
+# Lets improve this to by adding the new variable price and one print statement 
+
+age = 45
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 50
+else:
+    price = 10
+
+print (f"Your addmission cost is £{price}")
+
+# If elif and else statments are useful but sometime we want all tests to run. In such a sase just use if
+
+pizza_toppings = ["peperoni", "mushrooms", "tomatoes", "cheese"]
+if "peperoni" in pizza_toppings:
+    print("Add peperoni")
+if "mushrooms" in pizza_toppings:
+    print("Add mushrooms")
+if "tomatoes" in pizza_toppings:
+    print("add tomatoes")
+if "chorizo" in pizza_toppings:
+    print("Add chorizo")
+if "cheese" in pizza_toppings:
+    print("Add cheese")
+print("\nPizza finsihed!")
+
+
+
+
+
 
     
