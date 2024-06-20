@@ -59,3 +59,62 @@ for new_car in new_cars:
         print(new_car.title())
 
 
+
+# Lets make 10 conditional tests
+# Lets test if a word is in a sentence 
+sentence = "The fox ran up the hill"
+if "fox" in sentence:
+    print ("True")
+else:
+    print(False)
+
+# If the tempreture is lower that 20 degrees turn on heat, else turn on AC
+temp = 25
+if temp < 20:
+    print ("Turn on the AC")
+else:
+    print("Turn on the heater")
+
+
+# Raning and umbrella 
+raining = True
+umbrella = True
+if raining and umbrella:
+    print ("You may go for a walk")
+else:
+    print ("You may not go for a walk")
+
+
+# Lets for another equality and inequality test
+# This is an example of an equality
+fruit = "Apple"
+if fruit.lower() == "apple":
+    print(f"This is an {fruit}")
+else:
+    print(f"This is not an {fruit}")
+
+# Lets not do an example of an equality
+
+age = 16
+if age != 18:
+    print("You may not come in")
+
+
+# Test if item is in a list
+cakes_in_stock = ["Victoria Sponge", "Mini Rolls", "Bakewell Tart", "Angel Slices"]
+cakes_to_check = ["Victoria Sponge", "Mini Rolls", "Bakewell Tart", "Angel Slices"]
+
+for cake in cakes_to_check:
+    if cake in cakes_in_stock:
+        print (f"{cake}, is in stock")
+    else:
+        print (f"{cake}, out of stock")
+
+
+
+
+
+
+
+
+
